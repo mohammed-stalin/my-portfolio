@@ -1,0 +1,97 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: var(--nav);
+  padding: 10px;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 80px;
+  height: 50px;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 10px;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.navbar-menu li a.active {
+  color: var(--green);
+}
+
+.navbar-menu li a:hover {
+  color: var(--green);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  width: 100%;
+  max-width: 200px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.search-button:hover {
+  background-color: darkgreen;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .navbar-menu {
+    margin-top: 10px;
+  }
+
+  .navbar-menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

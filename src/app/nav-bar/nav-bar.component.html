@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <div class="container">
+    <img class="navbar-logo" routerLink="/" (click)="refreshPage()" src="../../assets/logo.png" alt="">
+    <ul class="navbar-menu">
+      <li><a (click)="scrollToSection('personal-information')" >About</a></li>
+      <li><a (click)="scrollToSection('education')">Education</a></li>
+      <li><a (click)="scrollToSection('work-experience')">Experiences</a></li>
+      <li><a (click)="scrollToSection('skills')">Skills</a></li>
+      <li><a (click)="scrollToSection('projects')">Projects</a></li>
+      <li><a (click)="scrollToSection('contact')">Contact</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" >
+      <button class="search-button" >Search</button>
+    </div>
+
+</div>
+</nav>
