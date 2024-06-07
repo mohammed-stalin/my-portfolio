@@ -29,6 +29,36 @@ export class SkillsComponent implements OnInit {
       rating: 80,
     },
     {
+      name: 'Python',
+      level: 'Intermediate',
+      rating: 85,
+    },
+    {
+      name: 'Machine Learning',
+      level: 'Intermediate',
+      rating: 70,
+    },
+    {
+      name: 'Big Data Technologies',
+      level: 'Beginner',
+      rating: 50,
+    },
+    {
+      name: 'IoT Platforms',
+      level: 'Beginner',
+      rating: 50,
+    },
+    {
+      name: 'Natural Language Processing (NLP)',
+      level: 'Intermediate',
+      rating: 70,
+    },
+    {
+      name: 'Advanced Databases',
+      level: 'Intermediate',
+      rating: 50,
+    },
+    {
       name: 'Laravel',
       level: 'beginner',
       rating: 30,
@@ -47,7 +77,7 @@ export class SkillsComponent implements OnInit {
       name: 'canva',
       level: 'Expert',
       rating: 90,
-    },
+    }
   ];
   constructor() {}
 

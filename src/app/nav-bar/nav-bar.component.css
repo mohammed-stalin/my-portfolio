@@ -6,7 +6,7 @@
   z-index: 999;
   background-color: var(--nav);
   padding: 10px;
-  
+
 }
 
 .container {
@@ -93,5 +93,6 @@
   .navbar-menu li {
     margin-right: 0;
     margin-bottom: 10px;
+
   }
 }
